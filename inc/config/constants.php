@@ -4,7 +4,7 @@
 
 
 	// Root url for the site
-	define('ROOT_URL', 'http://localhost/inventory-management-system/');
+	define('ROOT_URL', 'https://saithet-inventory.herokuapp.com/');
 	
 	
 	// Database parameters
