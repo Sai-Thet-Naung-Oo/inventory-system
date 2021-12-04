@@ -1,21 +1,25 @@
 <?php
+
+
+
+
 	// Root url for the site
 	define('ROOT_URL', 'http://localhost/inventory-management-system/');
 	
 	
 	// Database parameters
 	// Data source name
-	define('DSN', 'mysql:host=localhost;dbname=shop_inventory');
+	define('DSN', 'mysql:host=eu-cdbr-west-01.cleardb.com;dbname=heroku_acbcfd04d1656fa');
 	
 	// Hostname
-	define('DB_HOST', 'localhost');
+	define('DB_HOST', 'eu-cdbr-west-01.cleardb.com');
 	
 	// DB user
-	define('DB_USER', 'root');
+	define('DB_USER', 'b5fbbee22ed885');
 	
 	// DB password
-	define('DB_PASSWORD', '');
+	define('DB_PASSWORD', 'dabf7c83');
 	
 	// DB name
-	define('DB_NAME', 'shop_inventory');
+	define('DB_NAME', 'heroku_acbcfd04d1656fa');
 ?>
