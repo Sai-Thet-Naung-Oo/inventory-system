@@ -22,3 +22,6 @@ A simple PHP web system for managing an inventory.
 
 ## Acknowledgments
 * Inspired by many similar projects online
+
+## Link
+* https://saithet-inventory.herokuapp.com
