@@ -406,7 +406,7 @@ $(document).ready(function(){
 	reportsTableCreator('vendorReportsTableDiv', vendorReportsSearchTableCreatorFile, 'vendorReportsTable');
 	
 	// Initiate popovers
-	$(document).on('mouseover', '.itemDetailsHover', function(){
+	$(document).on('mouseover', '.itemDetailsHover','click', function(){
 		// Create item details popover boxes
 		$('.itemDetailsHover').popover({
 			container: 'body',
