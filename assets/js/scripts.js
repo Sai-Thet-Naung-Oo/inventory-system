@@ -110,7 +110,7 @@ $(document).ready(function(){
     // in order to fix the dropdown box not visible issue when tab is hidden
 	$('.chosenSelect').chosen({ width: "95%"});
 	
-	$('#saleDetailsSaleDate').val(new Date().toDateInputValue());
+	// $('#saleDetailsSaleDate').val(new Date().toDateInputValue());
 	// Initiate tooltips
 	$('.invTooltip').tooltip(); 
 	
