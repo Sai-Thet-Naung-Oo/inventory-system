@@ -110,6 +110,7 @@ $(document).ready(function(){
     // in order to fix the dropdown box not visible issue when tab is hidden
 	$('.chosenSelect').chosen({ width: "95%"});
 	
+	$('#saleDetailsSaleDate').val(new Date().toDateInputValue());
 	// Initiate tooltips
 	$('.invTooltip').tooltip(); 
 	
@@ -366,6 +367,8 @@ $(document).ready(function(){
 	});
 	
 	// Initiate datepickers
+	
+
 	$('.datepicker').datepicker({
 		format: 'yyyy-mm-dd',
 		todayHighlight: true,

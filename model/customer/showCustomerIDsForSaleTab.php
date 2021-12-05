@@ -9,6 +9,8 @@
 		
 		// Construct the SQL query to get the customer ID
 		$sql = 'SELECT customerID FROM customer WHERE customerID LIKE ?';
+
+		//$sql = 'SELECT fullName FROM customer WHERE fullName LIKE ?';
 		$stmt = $conn->prepare($sql);
 		$stmt->execute([$customerIDString]);
 		
