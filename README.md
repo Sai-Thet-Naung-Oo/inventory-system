@@ -25,4 +25,8 @@ A simple PHP web system for managing an inventory.
 
 ## Link
 * https://saithet-inventory.herokuapp.com
+
+
 * http://saithet-inventorysystem.herokuapp.com
+      email address:admin@example.com
+           password:123456
